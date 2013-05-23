@@ -4,6 +4,8 @@ angular.module('$app')
 
   .service('audioFiles', function($window) {
 
+    var Audio = $window.Media || $window.Audio;
+
     var files = {
       tick: {src: './sounds/tick.wav', volume: 0.35},
       rest: {src: './sounds/tick-rest.wav', volume: 0.05},
@@ -13,7 +15,7 @@ angular.module('$app')
     };
 
     angular.forEach(files, function(file) {
-      file.audio = new $window.Media(file.src);
+      file.audio = new Audio(file.src);
       if(file.volume) file.audio.volume = file.volume;
     });
 
