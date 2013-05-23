@@ -12,7 +12,7 @@ The routine was posted in the May-June issue of the American College of Sports M
 
 ## Documentation and examples
 
-[![Build Status](http://mgcrea.github.io/angular-7min/animations/tour.gif)](http://mgcrea.github.com/angular-7min)
+[![Build Status](http://mgcrea.github.io/angular-7min/images/tour.gif)](http://mgcrea.github.com/angular-7min)
 
 
 + Check the [documentation](http://mgcrea.github.com/angular-7min) and [changelog](https://github.com/mgcrea/angular-7min/wiki/Changelog).
