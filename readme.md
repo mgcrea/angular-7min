@@ -13,6 +13,9 @@ Angular-7min is fun & useful mobile application built with [AngularJS](https://g
 
 ## Documentation and examples
 
+[![Build Status](http://mgcrea.github.io/angular-7min/animations/tour.gif)](http://mgcrea.github.com/angular-7min)
+
+
 + Check the [documentation](http://mgcrea.github.com/angular-7min) and [changelog](https://github.com/mgcrea/angular-7min/wiki/Changelog).
 
 
