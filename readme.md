@@ -5,7 +5,9 @@ Todos are boring, aren't they?
 Angular-7min is fun & useful mobile application built with [AngularJS](https://github.com/angular) as a week-end project.
 
 >
-	Don't have an hour or even twenty minutes to exercise each day? You might not need it. This routine of 12 exercises is a complete workout based on the latest fitness research—and it only takes 7 minutes. The routine was posted in the May-June issue of the American College of Sports Medicine's Health & Fitness Journal and highlighted by The New York Times.
+	Don't have an hour or even twenty minutes to exercise each day? You might not need it.
+	This routine of 12 exercises is a complete workout based on the latest fitness research—and it only takes 7 minutes.
+	The routine was posted in the May-June issue of the American College of Sports Medicine's Health & Fitness Journal and highlighted by The New York Times.
 
 
 
