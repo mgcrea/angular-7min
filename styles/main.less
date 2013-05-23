@@ -1,0 +1,133 @@
+@import "include/variables.less";
+@import "include/mixins.less";
+
+@img:"./../images";
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body {
+  padding: 0px;
+}
+
+button, select, textarea, input, pre {
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.bs-docs-social {
+  background: rgba(245, 245, 245, .15);
+  border-top: 1px solid rgba(245, 245, 245, .25);
+  border-bottom: 1px solid rgba(221, 221, 221, .25);
+  ul.bs-docs-social-buttons {
+    li {
+      padding: 5px 0px;
+    }
+  }
+}
+
+.authors-social-buttons {
+  vertical-align: middle;
+  display:inline-block;
+  margin: 4px 0 0 4px;
+}
+
+/* Github-Ribbon
+-------------------------------------------------- */
+
+.github-ribbon {
+  background-color:#121621;
+  display:block;position:absolute;top:3.2em;right:-3.7em;
+  .rotate(45deg);
+  -webkit-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;-moz-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;-ms-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;-o-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;
+  color:rgba(255,255,255,0.90);display:block;padding:.6em 3.5em;font:bold .82em sans-serif;text-align:center;text-decoration:none;text-shadow:1px -1px 8px rgba(0,0,0,0.60);
+  .user-select(none);
+}
+.github-ribbon{
+  z-index:2;
+}
+
+/* Docs Customization
+-------------------------------------------------- */
+
+.page-header h1 > small > a {
+  color: #999;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.footer {
+  margin: 0px;
+}
+
+/* AngularJS Forms Validation
+-------------------------------------------------- */
+
+input, textarea, select {
+  &.ng-invalid {
+    color: rgb(185, 74, 72);
+    border-color: rgb(238, 95, 91);
+    &:focus {
+      .box-shadow(0 0 6px rgb(248, 185, 183));
+      border-color: rgb(233, 50, 45);
+    }
+  }
+}
+
+/* Popover
+-------------------------------------------------- */
+
+
+/* Jumbotrons
+-------------------------------------------------- */
+
+/* Base class
+------------------------- */
+.jumbotron {
+  /*@media (max-width: 980px) {
+    margin-top: 50px;
+  }*/
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+  padding: 60px 0 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #f7f7f7 url("@{img}/paris_blur.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  @media (max-width: 979px) {
+    background-position: 50% 20%;
+  }
+
+  &:after {
+    opacity: .15;
+    background: none;
+  }
+
+  @shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  .box-shadow(@shadow);
+}
+
+.container {
+  .iphone {
+    margin: 2em auto;
+    position: relative;
+    width: 375px;
+    height: 806px;
+    background: transparent url("@{img}/iphone.png");
+    .iphone-inner {
+      position: absolute;
+      top: 147px;
+      left: 27px;
+      width: 320px;
+      height: 550px;
+      background: black;
+    }
+  }
+}
