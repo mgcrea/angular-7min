@@ -1,0 +1,46 @@
+<!--<div class="codrops-top clearfix">
+  <a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Tutorials/AutomaticFigureNumbering/"><span>Previous Demo</span></a>
+  <span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15001"><span>Back to the Codrops Article</span></a></span>
+</div>
+
+<header class="bar-title">
+  <a class="button-prev" ng-click="$navigate.go('/', 'slide', true)">
+    Back
+  </a>
+</header>-->
+
+
+<div class="content content-step content-step-{{step}} workout-{{workout.id}}">
+
+  <header>
+    <div class="progress-bar">
+      <div style="width:{{100 * (step / total)}}%"></div>
+    </div>
+    <span class="pull-right exit" ng-click="exit()"><i class="icon-remove"></i></span>
+  </header>
+
+  <div class="content-title">
+    <h1>
+      <span>Step {{step}}</span>
+      <strong>{{workout.name | firstWord}}</strong> {{workout.name | followingWords}}
+    </h1>
+  </div>
+
+  <div class="timer">
+    <span>{{timer}}</span>
+  </div>
+
+  <div class="picture-holder">
+    <div class="picture"></div>
+  </div>
+
+  <footer>
+    <button type="button" class="button pull-left" ng-click="pause()" ng-bind="pauseText()"></button>
+    <i class="icon-pause" ng-show="paused"></i>
+    <button type="button" class="button pull-right" ng-click="skip()" ng-bind="skipText()"></button>
+    <div class="progress-bar">
+      <div style="width:{{100 * (1 - timer / duration)}}%"></div>
+    </div>
+  </footer>
+
+</div>
