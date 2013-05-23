@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "angular": "~1.0.6",
+    "cordova": "~2.7.0",
     "json3": "latest",
     "es5-shim": "latest",
     "angular-resource": "~1.0.6",
