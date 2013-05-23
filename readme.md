@@ -38,7 +38,7 @@ $ grunt server
 
 Clone the repo, `git clone git://github.com/mgcrea/angular-7min.git`, [download the latest release](https://github.com/mgcrea/angular-7min/zipball/master) or install with bower `bower install angular-7min`.
 
-AngularStrap is tested with `testacular` against the latest available release of jQuery & Boot7min.
+AngularStrap is tested with `karma`.
 
 ``` bash
 $ sudo npm install bower grunt-cli --global
