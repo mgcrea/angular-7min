@@ -160,12 +160,40 @@ select.ng-invalid:focus {
   width: 375px;
   height: 806px;
   background: transparent url("./../images/iphone.png");
+  -webkit-animation: -webkit-transform 500ms linear;
+  -webkit-transform: rotate(90deg);
+}
+@media (max-width: 980px) {
+  .container .iphone {
+    -webkit-transform: rotate(0deg);
+  }
 }
 .container .iphone .iphone-inner {
   position: absolute;
   top: 147px;
   left: 27px;
-  width: 320px;
-  height: 550px;
-  background: black;
+  width: 550px;
+  height: 320px;
+  background: transparent;
+}
+@media (max-width: 980px) {
+  .container .iphone .iphone-inner {
+    width: 320px;
+    height: 550px;
+  }
+}
+.container .iphone .iphone-inner .iframe {
+  position: absolute;
+  top: 115px;
+  left: -115px;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-90deg);
+}
+@media (max-width: 980px) {
+  .container .iphone .iphone-inner .iframe {
+    -webkit-transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
 }
