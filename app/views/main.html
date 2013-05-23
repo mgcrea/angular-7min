@@ -1,0 +1,23 @@
+<div class="content content-main">
+
+  <div class="content-title">
+    <h1>
+      <span>Workout timer</span>
+      <strong>{{workout.duration / 60 | numberAsText}}</strong> Minute
+    </h1>
+  </div>
+
+  <div class="config-menu fadeInDelay">
+    <a class="btn-icon btn-minus" ng-click="minus()"><i class="icon-minus"></i></a>
+    <a class="btn-icon btn-plus" ng-click="plus()"><i class="icon-plus"></i></a>
+  </div>
+
+  <div class="pagination-centered fadeIn pt-page-delay1000">
+    <button type="button" class="button pagination-centered" ng-disabled="countdown" ng-show="!countdown" ng-click="start()">Start</button>
+  </div>
+
+  <div class="timer" ng-show="countdown">
+    <span>{{timer}}</span>
+  </div>
+
+</div>
