@@ -1,11 +1,18 @@
 'use strict';
 /* global FastClick */
 
-angular.$debug = false;
+angular.$debug = true;
 
-document.addEventListener('deviceready', function() {
-  angular.bootstrap(document, ['$app']);
-}, false);
+var userAgent = navigator.userAgent.toLowerCase();
+if(/(ipadd|iphone)/.test(userAgent)) {
+  document.addEventListener('deviceready', function() {
+    angular.bootstrap(document, ['$app']);
+  }, false);
+} else {
+  setTimeout(function() {
+    angular.bootstrap(document, ['$app']);
+  });
+}
 
 angular.module('$app', [/*'ngMobile', */'ajoslin.mobile-navigate', 'cordova.analytics'])
 
