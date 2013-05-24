@@ -220,27 +220,23 @@ select.ng-invalid:focus {
   position: absolute;
   top: 147px;
   left: 27px;
-  width: 550px;
-  height: 320px;
-  background: transparent;
-}
-@media (max-width: 980px) {
-  .container .iphone .iphone-inner {
-    width: 320px;
-    height: 550px;
-  }
+  width: 320px;
+  height: 550px;
+  background: black;
 }
 .container .iphone .iphone-inner .iframe {
   position: absolute;
   top: 115px;
   left: -115px;
-  width: 100%;
-  height: 100%;
   -webkit-transform: rotate(-90deg);
+  width: 550px;
+  height: 320px;
 }
 @media (max-width: 980px) {
   .container .iphone .iphone-inner .iframe {
     -webkit-transform: rotate(0deg);
+    width: 320px;
+    height: 550px;
     top: 0px;
     left: 0px;
   }
