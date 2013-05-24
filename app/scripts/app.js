@@ -4,7 +4,7 @@
 angular.$debug = true;
 
 var userAgent = navigator.userAgent.toLowerCase();
-if(/(ipadd|iphone)/.test(userAgent)) {
+if(/(ipad|iphone)/.test(userAgent)) {
   document.addEventListener('deviceready', function() {
     angular.bootstrap(document, ['$app']);
   }, false);
