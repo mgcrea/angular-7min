@@ -65,7 +65,7 @@ pre {
 .github-ribbon {
   background-color: #121621;
   position: absolute;
-  top: 5.2em;
+  top: 3.2em;
   right: -3.7em;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -89,6 +89,12 @@ pre {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+}
+@media (max-width: 980px) {
+  .github-ribbon {
+    top: 5.2em;
+    right: -3.7em;
+  }
 }
 .github-ribbon {
   z-index: 2;
@@ -127,10 +133,6 @@ select.ng-invalid:focus {
 /* Base class
 ------------------------- */
 .jumbotron {
-  /*@media (max-width: 980px) {
-    margin-top: 50px;
-  }*/
-
   height: 1000px;
   overflow: hidden;
   position: relative;
@@ -144,6 +146,11 @@ select.ng-invalid:focus {
   -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 980px) {
+  .jumbotron {
+    padding-top: 120px;
+  }
 }
 @media (max-width: 979px) {
   .jumbotron {

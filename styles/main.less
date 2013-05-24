@@ -45,11 +45,14 @@ button, select, textarea, input, pre {
 
 .github-ribbon {
   background-color:#121621;
-  display:block;position:absolute;top:5.2em;right:-3.7em;
+  display:block;position:absolute;top:3.2em;right:-3.7em;
   .rotate(45deg);
   -webkit-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;-moz-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;-ms-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;-o-box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;box-shadow:0 0 0 1px #1d212e inset,0 0 2px 1px #fff inset,0 0 1em #888;
   color:rgba(255,255,255,0.90);display:block;padding:.6em 3.5em;font:bold .82em sans-serif;text-align:center;text-decoration:none;text-shadow:1px -1px 8px rgba(0,0,0,0.60);
   .user-select(none);
+  @media (max-width: 980px) {
+    top:5.2em;right:-3.7em;
+  }
 }
 .github-ribbon{
   z-index:2;
@@ -93,9 +96,9 @@ input, textarea, select {
 /* Base class
 ------------------------- */
 .jumbotron {
-  /*@media (max-width: 980px) {
-    margin-top: 50px;
-  }*/
+  @media (max-width: 980px) {
+    padding-top: 120px;
+  }
   height: 1000px;
   overflow: hidden;
   position: relative;
