@@ -48,13 +48,21 @@
   ================================================== -->
   <!--<div ng-include="'partials/header.html'" onload="window.$.headerLoaded()"></div>-->
   <header class="jumbotron subhead" id="overview">
+
     <div class="container">
       <h1>Angular7min</h1>
-      <p class="lead">7minute workout built with <strong>AngularJS</strong>.</p>
+      <p class="lead">7minute workout built with <strong>AngularJS</strong> for <strong>mobile</strong>.</p>
     </div>
+
+    <div class="github-ribbon">
+      <a href="https://github.com/mgcrea/angular-7min" target="_blank">Fork me on GitHub</a>
+    </div>
+
     <div class="bs-docs-social">
       <div class="container">
         <ul class="bs-docs-social-buttons">
+          <li>
+          </li>
           <li>
             <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=mgcrea&amp;repo=angular-7min&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
           </li>
@@ -65,7 +73,7 @@
             <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1352365724.html#_=1353343600175&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=olouv&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button" style="width: 236px; height: 20px;" title="Twitter Follow Button" data-twttr-rendered="true"></iframe>
           </li>-->
           <li class="tweet-btn">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mgcrea.github.com/angular-7min/" data-text="Angular7min - mobile Seven minute workout with AngularJS+Cordova" data-related="olouv">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mgcrea.github.com/angular-7min/" data-text="Angular7min - Seven minute workout built with AngularJS+Cordova for mobile" data-related="olouv">Tweet</a>
           </li>
           <li>
             <div class="g-plusone" data-size="medium" data-href="http://mgcrea.github.com/angular-7min/"></div>
@@ -74,17 +82,32 @@
       </div>
     </div>
 
-    <div class="github-ribbon">
-      <a href="https://github.com/mgcrea/angular-7min" target="_blank">Fork me on GitHub</a>
-    </div>
-
     <div class="container">
+      <div class="built-list">
+        <div style="width:200px">
+          <div>html5 powered</div>
+          <a class="store" href="https://itunes.apple.com/us/app/seven-minute/id650797701" target="_blank">
+            <img src="images/appstore.png" alt="" width="135" height="40">
+          </a>
+        </div>
+        <div style="width:300px">
+          <div>proudly built with</div>
+          <a class="store" href="http://yeoman.io" target="_blank">
+            <img src="images/toolset.png" width="150" alt="">
+          </a>
+          <a style="margin-left: -10px" class="store" href="http://angularjs.org" target="_blank">
+            <img src="images/angularjs.png" width="60" alt="">
+          </a>
+        </div>
+      </div>
       <div class="iphone">
+        <a class="fullscreen" href="/build" target="_blank"><i class="icon-fullscreen"></i>&nbsp;open full-screen</a>
         <div class="iphone-inner">
           <iframe class="iframe" src="build/index.html" frameborder="0"></iframe>
         </div>
       </div>
     </div>
+
 
   </header>
 

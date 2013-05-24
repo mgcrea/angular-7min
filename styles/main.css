@@ -30,6 +30,12 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
+@font-face {
+  font-family: 'Satisfy';
+  src: url('./build/fonts/satisfy-webfont.woff?v=1.0.0') format('woff'), url('./build/fonts/satisfy-webfont.ttf?v=1.0.0') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   padding: 0px;
   -webkit-user-select: none;
@@ -54,6 +60,32 @@ pre {
 }
 .bs-docs-social ul.bs-docs-social-buttons li {
   padding: 5px 0px;
+}
+div.built-list {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  font-family: 'Satisfy', serif;
+  color: #eee;
+  position: absolute;
+  top: 50px;
+  margin: 0 auto;
+}
+div.built-list > div {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 1.5em;
+}
+div.built-list > div > a {
+  display: inline-block;
+}
+@media (max-width: 980px) {
+  div.built-list {
+    width: 500px;
+    top: 200px;
+    left: 425px;
+  }
 }
 .authors-social-buttons {
   vertical-align: middle;
@@ -174,6 +206,15 @@ select.ng-invalid:focus {
   .container .iphone {
     -webkit-transform: rotate(0deg);
   }
+}
+.container .iphone .fullscreen {
+  color: #ccc;
+  font-size: 95%;
+  background: black;
+  font-weight: bold;
+  position: absolute;
+  top: 126px;
+  left: 126px;
 }
 .container .iphone .iphone-inner {
   position: absolute;
