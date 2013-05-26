@@ -32,7 +32,7 @@ body {
 }
 @font-face {
   font-family: 'Satisfy';
-  src: url('./styles/fonts/satisfy-webfont.woff?v=1.0.0') format('woff'), url('./styles/fonts/satisfy-webfont.woff?v=1.0.0') format('truetype');
+  src: url('fonts/satisfy-webfont.woff?v=1.0.0') format('woff'), url('fonts/satisfy-webfont.woff?v=1.0.0') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
