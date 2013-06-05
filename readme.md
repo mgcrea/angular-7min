@@ -7,7 +7,12 @@ Angular-7min is fun & useful mobile application built with [AngularJS](https://g
 >
 Don't have an hour or even twenty minutes to exercise each day? You might not need it.
 This routine of 12 exercises is a complete workout based on the latest fitness research—and it only takes 7 minutes.
-The routine was posted in the May-June issue of the American College of Sports Medicine's Health & Fitness Journal and highlighted by The New York Times.
+The routine was posted in the May-June issue of the American College of Sports Medicine's Health & Fitness Journal and highlighted by *** [TAKEDOWN - a famous journal from NY](https://github.com/mgcrea/angular-7min/blob/master/takedown/20130506-nytimes.jpg) ***.
+
+
+## Takedown notice
+
++ I have received the following [takedown notice](https://github.com/mgcrea/angular-7min/blob/master/takedown/20130506-nytimes.jpg) regarding the illustrations used in the app.
 
 
 ## Documentation and examples
