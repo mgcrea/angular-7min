@@ -1,6 +1,6 @@
 /**
  * beelink-mobile
- * @version v1.0.0 - 2013-05-26
+ * @version v1.0.0 - 2013-06-09
  * @link 
  * @author 
  * @license MIT License, http://www.opensource.org/licenses/MIT
