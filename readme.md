@@ -56,6 +56,12 @@ You can build the latest version using `grunt`.
 $ grunt build
 ```
 
+If you run into any permissions issues running the 'npm install' command, try running one of these two commands.
+
+```
+sudo chown -R $USER /usr/local
+sudo chown -R $USER /Users/[yourusername]/.npm
+```
 
 ## Contributing
 
