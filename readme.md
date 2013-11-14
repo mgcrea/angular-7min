@@ -50,6 +50,12 @@ $ npm install --dev; bower install
 $ grunt test
 ```
 
+Tests require 'PhantomJS' to be installed.
+
+``` bash
+$ brew update && brew install phantomjs
+```
+
 You can build the latest version using `grunt`.
 
 ``` bash
@@ -58,7 +64,7 @@ $ grunt build
 
 If you run into any permissions issues running the 'npm install' command on OSX, try running one of these two commands.
 
-```
+``` bash
 $ sudo chown -R $USER /usr/local
 $ sudo chown -R $USER /Users/[yourusername]/.npm
 ```
